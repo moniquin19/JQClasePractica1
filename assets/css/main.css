@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul ol {
+  list-style: none;
+}
+
+
+body {
+  background-color: #848484;
+}
+
+.sliders {
+  width: 100%;
+  position: relative;
+}
+
+.slider ul li {
+  width: 100%;
+}
+
+.slider li img {
+  width: 100%;
+}
+
+.paginas {
+  position: absolute;
+  width: 100%;
+  top: 105%;
+  display: flex;
+  justify-content: center;
+}
+
+.paginas li {
+  color: #BF00FF;
+  list-style: none;
+  font-size: 20px;
+  margin: 2px 5px;
+  cursor: pointer;
+}
+
+.arrowleft, .arrowright {
+  position: absolute;
+  top: 50%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  color: #BF00FF;
+  font-size: 35px;
+}
+
+.arrowleft {
+  left: 10px;
+}
+
+.arrowright {
+  right: 10px;
+}
+
+
+
